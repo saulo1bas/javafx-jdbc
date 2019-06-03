@@ -50,7 +50,7 @@ public class MainViewController implements Initializable {
 	
 	
 	@Override
-	public void initialize(URL arg0, ResourceBundle arg1) {
+	public void initialize(URL url, ResourceBundle rb) {
 		// TODO Auto-generated method stub
 		
 	}
@@ -73,7 +73,7 @@ public class MainViewController implements Initializable {
 			initializingAction.accept(controller);
 			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			Alerts.showAlert("Error", "Error Alert", e.getMessage(), AlertType.ERROR);
 		}
 	}
